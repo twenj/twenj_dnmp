@@ -1,0 +1,467 @@
+2018/11/26 05:40:21 [error] 6#6: *5 open() "/var/www/html/localhost/favicon.ico" failed (2: No such file or directory), client: 218.247.217.98, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "47.92.64.95", referrer: "http://47.92.64.95/"
+2018/11/26 06:00:34 [error] 12#12: *15 directory index of "/var/www/html/localhost/" is forbidden, client: 218.247.217.98, server: localhost, request: "GET / HTTP/1.1", host: "47.92.64.95"
+2018/11/26 06:14:52 [error] 12#12: *25 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serve
+2018/11/26 06:15:50 [error] 12#12: *25 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serve
+2018/11/26 06:32:03 [error] 12#12: *40 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serve
+2018/11/26 06:37:10 [error] 12#12: *48 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serve
+2018/11/26 06:37:27 [error] 12#12: *48 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serve
+2018/11/26 06:37:39 [error] 12#12: *56 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 185.235.245.5, server
+2018/11/26 06:37:39 [error] 12#12: *58 open() "/var/www/html/localhost/ncsi.txt" failed (2: No such file or directory), client: 185.235.245.5, server: localhost, request: "GET http://www.msftncsi.com/ncsi.txt HTTP/1.1", host: "www.msftncsi.com", referrer: "http://47.92.64.95/"
+2018/11/26 06:37:40 [error] 12#12: *59 "/var/www/html/localhost/HNAP1/index.php" is not found (2: No such file or directory), client: 185.235.245.5, server: localhost, request: "GET /HNAP1/ HTTP/1.1", host: "47.92.64.95", referrer: "http://47.92.64.95/"
+2018/11/26 06:38:03 [error] 12#12: *48 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serve
+2018/11/26 06:43:30 [error] 12#12: *64 open() "/var/www/html/localhost/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.70.187, server: localhost, request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2018/11/26 06:56:15 [error] 12#12: *65 open() "/var/www/html/localhost/favicon.ico" failed (2: No such file or directory), client: 66.102.6.41, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "47.92.64.95"
+2018/11/26 08:08:43 [error] 12#12: *68 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 218.247.217.98, server: localhost, request: "POST /wp-admin/setup-config.php?step=2 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/setup-config.php?step=1&language=zh_CN"
+2018/11/26 08:09:00 [error] 12#12: *68 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serve
+2018/11/26 08:09:01 [error] 12#12: *68 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serve
+2018/11/26 08:09:01 [error] 12#12: *68 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serve
+2018/11/26 08:09:01 [error] 12#12: *74 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serve
+2018/11/26 08:09:02 [error] 12#12: *74 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serve
+2018/11/26 08:09:04 [error] 12#12: *74 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serve
+2018/11/26 08:09:09 [error] 12#12: *74 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serve
+2018/11/26 08:09:26 [error] 12#12: *74 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serve
+2018/11/26 08:11:25 [error] 12#12: *74 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 218.247.217.98, server: localhost, request: "POST /wp-admin/setup-config.php?step=2 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/setup-config.php?step=1&language=zh_CN"
+2018/11/26 08:44:26 [error] 12#12: *93 directory index of "/var/www/html/localhost/" is forbidden, client: 218.247.217.98, server: localhost, request: "GET / HTTP/1.1", host: "47.92.64.95"
+2018/11/26 08:49:30 [error] 12#12: *100 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /var/www/html/localhost/index.php on line 3
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/index.php:0
+PHP message: PHP   2. mysqli_connect() /var/www/html/localhost/index.php:3" while reading response header from upstream, client: 218.247.217.98, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95"
+2018/11/26 08:49:30 [error] 12#12: *100 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /var/www/html/localhost/index.php on line 3
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/index.php:0
+PHP message: PHP   2. mysqli_connect() /var/www/html/localhost/index.php:3" while reading response header from upstream, client: 218.247.217.98, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95"
+2018/11/26 08:54:26 [error] 12#12: *104 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serv
+2018/11/26 08:54:28 [error] 12#12: *112 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serv
+2018/11/26 08:54:57 [error] 12#12: *112 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serv
+2018/11/26 08:55:11 [error] 12#12: *112 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serv
+2018/11/26 09:11:27 [error] 12#12: *117 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106
+PHP message: PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /var/www/html/localhost/wp-includes/load.php on line 404
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/localhost/wp-admin/setup-config.php:0
+PHP message: PHP   2. require() /var/www/html/localhost/wp-admin/setup-config.php:33
+PHP message: PHP   3. require_wp_db() /var/www/html/localhost/wp-settings.php:106" while reading response header from upstream, client: 218.247.217.98, serv
+2018/11/26 09:21:57 [error] 12#12: *149 directory index of "/var/www/html/localhost/" is forbidden, client: 218.247.217.98, server: localhost, request: "GET / HTTP/1.1", host: "47.92.64.95"
+2018/11/26 09:21:59 [error] 12#12: *149 directory index of "/var/www/html/localhost/" is forbidden, client: 218.247.217.98, server: localhost, request: "GET / HTTP/1.1", host: "47.92.64.95"
+2018/11/26 09:21:59 [error] 12#12: *149 directory index of "/var/www/html/localhost/" is forbidden, client: 218.247.217.98, server: localhost, request: "GET / HTTP/1.1", host: "47.92.64.95"
+2018/11/26 09:27:54 [error] 12#12: *163 open() "/var/www/html/localhost/admin" failed (2: No such file or directory), client: 218.247.217.98, server: localhost, request: "GET /admin HTTP/1.1", host: "47.92.64.95"
+2018/11/26 09:28:49 [warn] 12#12: *172 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/load-styles.php?c=0&dir=ltr&load%5B%5D=dashicons,admin-bar,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-pointer,widgets&load%5B%5D=,site-icon,l10n,buttons,wp-auth-check&ver=4.9.8 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/"
+2018/11/26 09:28:49 [warn] 12#12: *168 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/load-scripts.php?c=0&load%5B%5D=hoverIntent,common,admin-bar,wp-ajax-response,jquery-color,wp-lists,quicktags,jquery-query,admin-comments,jquery-ui-core,jquery-&load%5B%5D=ui-widget,jquery-ui-mouse,jquery-ui-sortable,postbox,underscore,wp-util,wp-a11y,dashboard,thickbox,plugin-install,updates,shortc&load%5B%5D=ode,media-upload,svg-painter,heartbeat,wp-auth-check,wplink,jquery-ui-position,jquery-ui-menu,jquery-ui-autocomplete&ver=4.9.8 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/"
+2018/11/26 09:28:59 [warn] 12#12: *163 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/load-styles.php?c=0&dir=ltr&load%5B%5D=dashicons,admin-bar,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-pointer,widgets&load%5B%5D=,site-icon,l10n,buttons&ver=4.9.8 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/update-core.php"
+2018/11/26 09:34:39 [warn] 12#12: *225 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/customize.php HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/"
+2018/11/26 09:34:39 [warn] 12#12: *222 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/load-styles.php?c=0&dir=ltr&load%5B%5D=dashicons,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-pointer,widgets,site-icon&load%5B%5D=,l10n,buttons,customize-controls,customize-widgets,customize-nav-menus,wp-color-picker,media-views,code-editor&ver=4.9.8 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/customize.php"
+2018/11/26 09:34:39 [warn] 12#12: *229 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/load-scripts.php?c=0&load%5B%5D=jquery-core,jquery-migrate,underscore,wp-a11y,wp-util,jquery-ui-core,jquery-ui-widget,jquery-ui-mouse,jquery-ui-sortable,jquery-&load%5B%5D=ui-draggable,jquery-ui-droppable,backbone,wp-backbone,wp-ajax-response,jquery-color,wp-lists,postbox,nav-menu,shortcode,utils,me&load%5B%5D=dia-models,moxiejs,plupload,wp-plupload&ver=4.9.8 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/customize.php"
+2018/11/26 09:34:42 [warn] 12#12: *231 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/load-scripts.php?c=0&load%5B%5D=heartbeat,customize-base,customize-controls,customize-widgets,accordion,customize-nav-menus,jquery-ui-slider,jquery-touch-punch,&load%5B%5D=iris,wp-color-picker,imgareaselect,customize-models,customize-views,mce-view,image-edit,updates,quicktags,wplink,jquery-ui-posit&load%5B%5D=ion,jquery-ui-menu,jquery-ui-autocomplete,thickbox,media-upload&ver=4.9.8 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/customize.php"
+2018/11/26 09:34:46 [warn] 12#12: *231 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/00/0000000008 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /?customize_changeset_uuid=cddb0bc5-5f71-4660-ab35-b77aa1d39292&customize_theme=twentyseventeen&customize_messenger_channel=preview-0 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/customize.php"
+2018/11/26 09:35:10 [error] 12#12: *222 "/var/www/html/localhost/about/index.php" is not found (2: No such file or directory), client: 218.247.217.98, server: localhost, request: "GET /about/ HTTP/1.1", host: "47.92.64.95", referrer: "http://47.92.64.95/"
+2018/11/26 09:35:49 [warn] 12#12: *222 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/00/0000000009 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/load-scripts.php?c=0&load%5B%5D=hoverIntent,common,admin-bar,thickbox,underscore,backbone,wp-util,wp-backbone,wp-a11y,customize-base,theme,updates,svg-painter,h&load%5B%5D=eartbeat,wp-auth-check&ver=4.9.8 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/themes.php"
+2018/11/26 09:36:35 [warn] 12#12: *225 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/0/01/0000000010 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/post-new.php HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/edit.php"
+2018/11/26 09:36:35 [warn] 12#12: *230 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/01/0000000011 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/load-scripts.php?c=0&load%5B%5D=jquery-core,jquery-migrate,utils,moxiejs,plupload&ver=4.9.8 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/post-new.php"
+2018/11/26 09:36:35 [warn] 12#12: *229 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/01/0000000012 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/load-styles.php?c=0&dir=ltr&load%5B%5D=dashicons,admin-bar,buttons,media-views,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menu&load%5B%5D=s,wp-pointer,widgets,site-icon,l10n,wp-auth-check&ver=4.9.8 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/post-new.php"
+2018/11/26 09:36:35 [warn] 12#12: *222 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/01/0000000013 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/load-scripts.php?c=0&load%5B%5D=hoverIntent,common,admin-bar,heartbeat,autosave,suggest,wp-ajax-response,jquery-color,wp-lists,jquery-ui-core,jquery-ui-widget,j&load%5B%5D=query-ui-mouse,jquery-ui-sortable,postbox,jquery-ui-position,jquery-ui-menu,wp-a11y,jquery-ui-autocomplete,tags-suggest,tags-box&load%5B%5D=,underscore,word-count,post,editor-expand,thickbox,shortcode,backbone,wp-util,wp-backbone,media-models,wp-plupload,wp-mediaeleme&load%5B%5D=nt,wp-api-request,media-views,media-editor,media-audiovideo,mce-view,imgareaselect,image-edit,svg-painter,wp-auth-check,editor,q&load%5B%5D=uicktags,wplink,media-upload,wp-embed&ver=4.9.8 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/post-new.php"
+2018/11/26 09:36:38 [warn] 12#12: *229 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/01/0000000014 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/load-scripts.php?c=0&load%5B%5D=hoverIntent,common,admin-bar,wp-ajax-response,jquery-color,wp-lists,quicktags,jquery-query,admin-comments,svg-painter,heartbeat,&load%5B%5D=wp-auth-check,wp-a11y,wplink,jquery-ui-core,jquery-ui-widget,jquery-ui-position,jquery-ui-menu,jquery-ui-autocomplete&ver=4.9.8 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/edit-comments.php"
+2018/11/26 09:37:00 [warn] 12#12: *229 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/01/0000000015 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/customize.php?url=http%3A%2F%2F47.92.64.95%2F HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/"
+2018/11/26 09:38:05 [error] 12#12: *301 "/var/www/html/localhost/about/index.php" is not found (2: No such file or directory), client: 218.247.217.98, server: localhost, request: "GET /about/ HTTP/1.1", host: "47.92.64.95", referrer: "http://47.92.64.95/"
+2018/11/26 09:44:21 [warn] 12#12: *308 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/01/0000000016 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/post.php?post=18&action=edit HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/"
+2018/11/26 09:44:21 [warn] 12#12: *311 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/01/0000000017 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/load-scripts.php?c=0&load%5B%5D=hoverIntent,common,admin-bar,heartbeat,autosave,wp-ajax-response,jquery-color,wp-lists,quicktags,jquery-query,admin-comments,sug&load%5B%5D=gest,jquery-ui-core,jquery-ui-widget,jquery-ui-mouse,jquery-ui-sortable,postbox,jquery-ui-position,jquery-ui-menu,wp-a11y,jquery&load%5B%5D=-ui-autocomplete,tags-suggest,tags-box,underscore,word-count,post,editor-expand,thickbox,shortcode,backbone,wp-util,wp-backbone,&load%5B%5D=media-models,wp-plupload,wp-mediaelement,wp-api-request,media-views,media-editor,media-audiovideo,mce-view,imgareaselect,image-e&load%5B%5D=dit,svg-painter,wp-auth-check,editor,wplink,media-upload,wp-embed&ver=4.9.8 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/post.php?post=18&action=edit"
+2018/11/26 09:44:37 [warn] 12#12: *309 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/01/0000000018 while reading upstream, client: 218.247.217.98, server: localhost, request: "GET /wp-admin/load-styles.php?c=0&dir=ltr&load%5B%5D=dashicons,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-pointer,widgets,site-icon&load%5B%5D=,l10n,buttons&ver=4.9.8 HTTP/1.1", upstream: "fastcgi://172.18.0.8:9000", host: "47.92.64.95", referrer: "http://47.92.64.95/wp-admin/update.php?action=update-selected&plugins=akismet%2Fakismet.php&_wpnonce=46f62abbc4"
+2018/11/26 10:57:36 [error] 6#6: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 139.162.88.63, server: localhost, request: "GET http://clientapi.ipip.net/echo.php?info=1234567890 HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "clientapi.ipip.net"
+2018/12/03 01:25:12 [error] 6#6: *9 open() "/var/www/html/localhost/favicon.ico" failed (2: No such file or directory), client: 218.247.217.98, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "47.92.64.95", referrer: "http://47.92.64.95/"
+2018/12/03 10:09:41 [error] 6#6: *41 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 139.162.88.63, server: localhost, request: "GET http://clientapi.ipip.net/echo.php?info=1234567890 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "clientapi.ipip.net"
+2018/12/03 11:25:13 [error] 6#6: *47 open() "/var/www/html/localhost/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.70.187, server: localhost, request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2018/12/03 12:27:34 [error] 6#6: *62 open() "/var/www/html/localhost/phpmyadmin" failed (2: No such file or directory), client: 58.213.153.14, server: localhost, request: "GET //phpmyadmin HTTP/1.1", host: "47.92.64.95:80"
+2018/12/03 12:27:34 [error] 6#6: *63 open() "/var/www/html/localhost/robots.txt" failed (2: No such file or directory), client: 58.213.153.14, server: localhost, request: "GET //robots.txt HTTP/1.1", host: "47.92.64.95:80"
+2018/12/03 12:27:34 [error] 6#6: *64 open() "/var/www/html/localhost/data/admin/ver.txt" failed (2: No such file or directory), client: 58.213.153.14, server: localhost, request: "GET //data/admin/ver.txt HTTP/1.1", host: "47.92.64.95:80"
+2018/12/03 12:27:34 [error] 6#6: *65 open() "/var/www/html/localhost/data/admin/verifies.txt" failed (2: No such file or directory), client: 58.213.153.14, server: localhost, request: "GET //data/admin/verifies.txt HTTP/1.1", host: "47.92.64.95:80"
+2018/12/03 12:27:35 [error] 6#6: *71 open() "/var/www/html/localhost/jboss.css" failed (2: No such file or directory), client: 58.213.153.14, server: localhost, request: "GET /jboss.css HTTP/1.1", host: "47.92.64.95:80"
+2018/12/03 12:27:35 [error] 6#6: *72 open() "/var/www/html/localhost/is_test" failed (2: No such file or directory), client: 58.213.153.14, server: localhost, request: "GET /is_test HTTP/1.1", host: "47.92.64.95:80"
+2018/12/03 12:27:35 [error] 6#6: *73 open() "/var/www/html/localhost/axis2" failed (2: No such file or directory), client: 58.213.153.14, server: localhost, request: "GET /axis2 HTTP/1.1", host: "47.92.64.95:80"
+2018/12/03 12:27:35 [error] 6#6: *74 open() "/var/www/html/localhost/console/css/login.css" failed (2: No such file or directory), client: 58.213.153.14, server: localhost, request: "GET /console/css/login.css HTTP/1.1", host: "47.92.64.95:80"
+2018/12/03 12:27:35 [error] 6#6: *75 open() "/var/www/html/localhost/resource/js/cj.js" failed (2: No such file or directory), client: 58.213.153.14, server: localhost, request: "GET /resource/js/cj.js HTTP/1.1", host: "47.92.64.95:80"
+2018/12/03 14:30:14 [error] 6#6: *107 open() "/var/www/html/localhost/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.78.50, server: localhost, request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2018/12/03 15:25:39 [error] 6#6: *113 open() "/var/www/html/localhost/.git/HEAD" failed (2: No such file or directory), client: 159.224.109.206, server: localhost, request: "GET /.git/HEAD HTTP/1.1", host: "47.92.64.95"
+2018/12/03 21:32:09 [error] 6#6: *174 open() "/var/www/html/localhost/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.70.187, server: localhost, request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2018/12/04 06:13:39 [error] 6#6: *234 open() "/var/www/html/localhost/404/search_children.js" failed (2: No such file or directory), client: 120.132.3.65, server: localhost, request: "GET http://www.qq.com/404/search_children.js HTTP/1.1", host: "www.qq.com"
+2018/12/04 08:23:41 [error] 6#6: *251 open() "/var/www/html/localhost/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.70.187, server: localhost, request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2018/12/04 18:32:49 [error] 6#6: *323 open() "/var/www/html/localhost/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.70.187, server: localhost, request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2018/12/04 23:28:43 [error] 6#6: *355 "/var/www/html/localhost/HNAP1/index.php" is not found (2: No such file or directory), client: 212.83.131.228, server: localhost, request: "GET /HNAP1/ HTTP/1.1", host: "47.92.64.95", referrer: "http://47.92.64.95/"
+2018/12/05 05:24:05 [error] 6#6: *395 open() "/var/www/html/localhost/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.70.187, server: localhost, request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2018/12/05 10:10:49 [error] 6#6: *1 open() "/var/www/html/localhost/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.78.50, server: localhost, request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2018/12/05 15:30:32 [error] 6#6: *41 open() "/var/www/html/localhost/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.70.187, server: localhost, request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2018/12/05 16:25:39 [error] 6#6: *52 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 178.128.13.160, server: localhost, request: "GET http://103.81.244.25/reply.php?q=eyJpcCI6IjQ3LjkyLjY0Ljk1IiwicG9ydCI6IjgwIiwibm9kbnMiOnRydWUsInR5cGUiOiJXRUIiLCJoYXNoIjoiNDQzZDQ0MjNhYTgxZWQ1MzNlZGE5YTBjNjkyNjU4MjQifQ%3D%3D HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "103.81.244.25"
+2018/12/05 16:44:38 [error] 6#6: *71 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 142.93.28.205, server: localhost, request: "GET http://103.81.244.25/reply.php?q=eyJpcCI6IjQ3LjkyLjY0Ljk1IiwicG9ydCI6IjgwIiwibm9kbnMiOnRydWUsInR5cGUiOiJXRUIiLCJoYXNoIjoiNDQzZDQ0MjNhYTgxZWQ1MzNlZGE5YTBjNjkyNjU4MjQifQ%3D%3D HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "103.81.244.25"
+2018/12/06 01:59:00 [error] 6#6: *136 open() "/var/www/html/localhost/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.70.187, server: localhost, request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
